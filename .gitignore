@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model artifacts and serialized weights
+models/*.pkl
+models/*.joblib
+*.pkl
+*.joblib
+
+# Datasets and data directories
+data/*
+!data/.gitkeep
+
+# Output and predictions
+output/*
+!output/.gitkeep
+candidate_pairs.tsv
+matching_results.tsv

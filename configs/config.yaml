@@ -1,0 +1,9 @@
+data:
+  train_dir: "data/train"
+  test_dir: "data/test"
+
+model:
+  path: "models/entity_matcher.pkl"
+
+output:
+  directory: "output"
